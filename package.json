@@ -1,0 +1,21 @@
+{
+  "name": "langchain-azure-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=../.env --watch server.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/core": "^1.1.39",
+    "@langchain/openai": "^1.4.3",
+    "@tailwindcss/cli": "^4.2.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "marked": "^18.0.3",
+    "tailwindcss": "^4.2.2"
+  }
+}
